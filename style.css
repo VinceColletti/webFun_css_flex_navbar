@@ -1,0 +1,51 @@
+/* Part I */
+.center-box{
+    background-color: darkblue;
+    min-height: 200px;
+    display: flex;
+}
+
+.center-item{
+    background-color: rgb(255, 255, 206);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+/* Part II */
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+#nav-bar{
+    margin-top: 10px;
+    background-color: rgb(78, 146, 214);
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    margin: 0 20px;
+}
+
+h1{
+    color: white;
+    user-select: none;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a:hover{
+    color: #b65b00;
+}
